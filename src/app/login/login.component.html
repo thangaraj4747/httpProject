@@ -1,0 +1,11 @@
+
+    <div class="outerDiv">
+        <h2>Login to your account</h2>
+        <h3>{{msg}}</h3>
+        <form [formGroup]="loginForm" (submit)="doLogin()">
+            <input type="text" placeholder="Username" formControlName="username"><br><br>
+            <input type="password" placeholder="Password" formControlName="password"><br><br>
+            <button type="submit">Login</button>
+        </form>
+        </div>
+    

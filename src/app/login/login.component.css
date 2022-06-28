@@ -1,0 +1,22 @@
+.outerDiv{
+    padding-bottom:25px;
+    border-color:black;
+    text-align:center;
+    border-style: dotted;
+    height: 250px;
+    width: 30%;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 10px;
+}
+
+h3{
+    font-family:Lato;
+    color: red;
+}
+h1{
+    color:black;
+	font-family:Lato;
+	font-size:15px;	
+	text-shadow:2px 1px grey;
+}

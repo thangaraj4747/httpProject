@@ -1,0 +1,15 @@
+<app-home></app-home>
+<div class="jumbotron" style="background-color: #fff; height: calc(95vh);">
+    <h1>Search City</h1>
+    <form [formGroup]="weatherForm" (submit)="doCheck(); view=!view">
+        <input type="text" formControlName="city"><button type="submit">Submit</button>
+    </form>
+    
+    <div *ngIf='view'>
+        City name: {{city}} <br>
+        Country: {{Country}}<br>
+Temperature in celsius: {{degree}} <img src="/assets/temp.png"><br>
+humidity: {{humidity}} <img src="/assets/drop.png">
+    </div>
+
+  </div>

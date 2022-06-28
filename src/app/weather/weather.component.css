@@ -1,0 +1,12 @@
+.jumbotron{
+    padding-top: 175px;
+    text-align: center;
+    background-color: teal;
+    color: teal;
+    border: none;
+    outline: solid 1px white;
+}
+img{
+    height: 30px;
+    width: 30px;
+}

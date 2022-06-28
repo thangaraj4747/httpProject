@@ -1,0 +1,44 @@
+.container{
+    background-color: paleturquoise;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}.heading{
+    color: black;
+    font-size: 16pt;
+    padding: 50px;
+    text-align: center;
+    line-height: 50px;   
+}
+.sub-data{
+    color: black;
+    font-size: 10;
+    margin-left: 50px;
+    padding-bottom: 30px;
+    margin-left: 50px;
+}.logout{
+    height: 30px;
+    width: 60px;
+    background-color: teal;
+    color: white;
+    border: none;
+    outline: solid 1px white;
+    float:right;
+    margin-right: 20%;
+margin-top: 20px;}
+.goback{
+    height: 30px;
+    width: 60px;
+    background-color: teal;
+    color: white;
+    border: none;
+    outline: solid 1px white;
+    margin-left: 22%;
+    margin-top: 20px;
+   }
+   img{
+    height: 500px;
+    width: 1000px;
+       padding-top: 30px;
+       padding-left: 150px;
+   }

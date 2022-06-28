@@ -1,0 +1,7 @@
+{
+    "/api/*": {
+        "target": "https://developers.zomato.com",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}

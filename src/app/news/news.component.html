@@ -1,0 +1,24 @@
+<app-home>
+</app-home>
+
+<div class="heading">
+    <div *ngFor="let x of news; index as i" class="menu">
+        <span (click)="checkNews(i)">{{x}}</span>
+    </div>
+    <div class="menu">
+        <span (click)="startNews()">All</span>
+    </div>
+</div>
+
+<div class="row">
+    <div class="column" *ngFor="let x of newsdata.articles; index as i">
+        <div class="card" style="width: 18rem; height: 22rem;">
+            <img src={{x.urlToImage}} class="card-img-top img-fluid" alt={{x.urlToImage}}>
+            <div class="card-body">
+                <h5 class="card-title">{{x.author}}</h5>
+                <p class="card-text">{{x.title | slice:0:60}}...</p>
+            </div>
+            <a class="btn btn-primary" (click)="getMoreInfo(x)">Get More Info</a>
+        </div>
+    </div>
+</div>
